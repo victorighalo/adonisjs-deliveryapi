@@ -1,4 +1,4 @@
-# An API that emulates Google Locations and Distance Matrix API for calculating delivery costn
+# An API that emulates Google Locations and Distance Matrix API for courier calculating delivery cost
 
 ## Instalation
 
@@ -22,7 +22,7 @@ adonis migration run
 2. Copy token to use for subsequent requests
 
 
-### Get Locations
+## Get Locations
 
 Route - /locations
 
@@ -34,7 +34,7 @@ Response
   ]
 ```
 
-### Calculate Delivery cost
+## Calculate Delivery cost
 
 1. Request
     from: 5,
