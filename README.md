@@ -1,31 +1,56 @@
-# Adonis fullstack application
+# An API that emulates Google Locations and Distance Matrix API for courier calculating delivery cost
 
-This is the fullstack boilerplate for AdonisJs, it comes pre-configured with.
+## Instalation
 
-1. Bodyparser
-2. Session
-3. Authentication
-4. Web security middleware
-5. CORS
-6. Edge template engine
-7. Lucid ORM
-8. Migrations and seeds
-
-## Setup
-
-Use the adonis command to install the blueprint
-
+1. Clone repo 
+2. Install - `npm install`.
+3. Create env file with this -> [link to Gist!]( https://gist.github.com/victorighalo/8d552e3695f7ea394bc1082295f93dd8)
+4. Run Mmigration
 ```bash
-adonis new yardstick
+adonis migration run
 ```
+4. Run Seeder
+ ```js
+ adonis make:seed User;
+ ```
 
-or manually clone the repo and then run `npm install`.
+## Authenticate
+
+1. Login
+   Route - /login - email: 'admin@app.com', password: '123456'
+   
+2. Copy token to use for subsequent requests
 
 
-### Migrations
+## Get Locations
 
-Run the following command to run startup migrations.
+Route - /locations
 
+Response
 ```js
-adonis migration:run
+  "data": [
+  {"name":"Ajeromi-Ifelodun","id":1, "zone": 3},
+  ...
+  ]
 ```
+
+## Calculate Delivery cost
+
+1. Request
+    from: 5,
+    to:   12,
+    weight: 9
+    
+2. Response
+    ```js
+    {
+    "price": 3800,
+    "message": "Success"
+    }
+    ```
+
+## Run Server
+```js
+adonis serve --dev or adonis serve
+```
+
