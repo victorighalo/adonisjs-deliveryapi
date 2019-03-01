@@ -17,14 +17,17 @@ adonis migration run
 ## Authenticate
 
 1. Login
-   Route - /login - email: 'admin@app.com', password: '123456'
+   Route - [GET] - /login 
+   
+   Request 
+   `` email: 'admin@app.com', password: '123456' ``
    
 2. Copy token to use for subsequent requests
 
 
 ## Get Locations
 
-Route - /locations
+Route - [GET] - /locations
 
 Response
 ```js
@@ -35,6 +38,8 @@ Response
 ```
 
 ## Calculate Delivery cost
+
+Route - [POST] - /costmatrix
 
 1. Request
     from: 5,
