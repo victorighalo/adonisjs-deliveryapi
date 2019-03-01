@@ -4,7 +4,7 @@
 
 1. Clone repo 
 2. Install - `npm install`.
-3. Create env file with this -> 
+3. Create env file with this -> [title]https://gist.github.com/victorighalo/8d552e3695f7ea394bc1082295f93dd8
 4. Run Mmigration
 ```bash
 adonis migration run
@@ -49,5 +49,8 @@ Response
     }
     ```
 
-
+## Run Server
+```js
+adonis serve --dev or adonis serve
+```
 
