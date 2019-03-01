@@ -1,0 +1,23 @@
+{
+  "data": [
+  {"name":"Ajeromi-Ifelodun","id":1, "zone": 3},
+  {"name":"Alimosho","id":2, "zone": 1},
+  {"name":"Amuwo-Odofin","id":3, "zone": 1},
+  {"name":"Apapa","id":4, "zone": 1},
+  {"name":"Badagry","id":5, "zone": 3},
+  {"name":"Epe","id":6, "zone": 3},
+  {"name":"EtiOsa","id":7, "zone": 3},
+  {"name":"Ibeju-Lekki","id":8, "zone": 3},
+  {"name":"Ifako-Ijaiye","id":9, "zone": 3},
+  {"name":"Ikeja","id":10, "zone": 1},
+  {"name":"Ikorodu","id":11, "zone": 3},
+  {"name":"Kosofe","id":12, "zone": 3},
+  {"name":"Lagos Island","id":13, "zone": 2},
+  {"name":"Lagos Mainland","id":14, "zone": 1},
+  {"name":"Mushin","id":15, "zone": 1},
+  {"name":"Ojo","id":16, "zone": 2},
+  {"name":"Oshodi-Isolo","id":17, "zone": 1},
+  {"name":"Shomolu","id":18, "zone": 1},
+  {"name":"Surulere","id":19, "zone": 1}
+]
+}
