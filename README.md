@@ -42,9 +42,11 @@ Response
 Route - [POST] - /costmatrix
 
 1. Request
+    ```js
     from: 5,
     to:   12,
     weight: 9
+    ```
     
 2. Response
     ```js
